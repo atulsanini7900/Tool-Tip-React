@@ -1,13 +1,12 @@
-
-
-import ToolTip from './ToolTip';
+import ToolTip from './ToolTip';  // Import the ToolTip component from './ToolTip'
 
 function App() {
   return (
     <>
-    <ToolTip/>
+      {/* Render the ToolTip component */}
+      <ToolTip/>
     </>
   );
 }
 
-export default App;
+export default App;  // Export the App component
